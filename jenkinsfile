@@ -6,8 +6,7 @@ node {
    stage('Build and Test') {
      echo 'Build is triggered with test execution'
       }
-   
-   stage('Deploy to DEV') {
+    stage('Deploy to DEV') {
      echo 'Deploying to Dev environment'
    }
    stage('Test Execution on Dev') {
